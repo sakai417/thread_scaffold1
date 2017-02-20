@@ -5,6 +5,7 @@ class CommentsController < ApplicationController
   # GET /comments.json
   def index
     @comments = Comment.all
+    # @tweets = Tweet.find(params[:id])
   end
 
   # GET /comments/1
